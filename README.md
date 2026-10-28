@@ -1,6 +1,6 @@
 # Monopoly Tracker
 
-A convenient dashboard for Monopoly nights. Instead of shuffling paper money, everyone's cash, properties, houses, mortgages, and the Free Parking pot live in one browser tab (with local storage to come back to ongoing games), and the app works out rent for you. Live at **[monopoly-tracker-three.vercel.app](https://monopoly-tracker-three.vercel.app)**.
+A convenient dashboard for Monopoly nights. Instead of shuffling paper money, everyone's cash, properties, houses, mortgages, and the Free Parking pot live in one browser tab (with local storage to come back to ongoing games), and the app works out rent for you. Live at **[monopolytracker.com](https://www.monopolytracker.com)**.
 
 ![A four-player game in progress: player cards with cash balances and owned properties, the bank's property strip, dice, center pot, and rent calculator](docs/screenshot.png)
 
