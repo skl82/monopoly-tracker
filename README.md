@@ -1,4 +1,4 @@
-# Monopoly Cash Tracker
+# Monopoly Tracker
 
 A convenient dashboard for Monopoly nights. Instead of shuffling paper money, everyone's cash, properties, houses, mortgages, and the Free Parking pot live in one browser tab (with local storage to come back to ongoing games), and the app works out rent for you. Live at **[monopoly-tracker-three.vercel.app](https://monopoly-tracker-three.vercel.app)**.
 
