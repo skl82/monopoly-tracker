@@ -1,8 +1,6 @@
 # Monopoly Cash Tracker
 
-A banker's dashboard for real-life Monopoly nights. Instead of shuffling paper money, everyone's cash, properties, houses, mortgages, and the Free Parking pot live in one browser tab, and the app works out rent for you.
-
-**Live:** [monopoly-tracker-three.vercel.app](https://monopoly-tracker-three.vercel.app)
+A convenient dashboard for Monopoly nights. Instead of shuffling paper money, everyone's cash, properties, houses, mortgages, and the Free Parking pot live in one browser tab (with local storage to come back to ongoing games), and the app works out rent for you. Live at **[monopoly-tracker-three.vercel.app](https://monopoly-tracker-three.vercel.app)**.
 
 ![A four-player game in progress: player cards with cash balances and owned properties, the bank's property strip, dice, center pot, and rent calculator](docs/screenshot.png)
 
@@ -26,7 +24,7 @@ A banker's dashboard for real-life Monopoly nights. Instead of shuffling paper m
 | UI | React 19 + TypeScript, styled with Tailwind CSS |
 | Build | Vite 7 |
 | Storage | [Dexie](https://dexie.org) (IndexedDB) for named saves, `localStorage` for the autosave |
-| Hosting | Vercel, deployed on every push to `main` |
+| Hosting | Vercel, deployed on every push to `main`, with Vercel Analytics |
 
 There's no backend: all game state stays in the player's browser, so nobody needs an account and nothing leaves the device.
 
