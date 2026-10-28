@@ -49,7 +49,7 @@ type Property = {
   rents?: { site: number; set: number; h1: number; h2: number; h3: number; h4: number; hotel: number };
 };
 
-// Monopoly Cash Tracker — single-file React component
+// Monopoly Tracker — single-file React component
 // New in this version:
 // - Mortgages: mortgage/unmortgage properties (no rent while mortgaged). Mortgage value = 50% of price; unmortgage = 110% of mortgage value.
 // - Paying Rent UI streamlined: fields stacked; tiny dice input tucked in the card corner.
@@ -1067,7 +1067,7 @@ export default function MonopolyCashTracker() {
         {/* Header */}
         <header className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div className="flex items-center gap-3">
-            <h1 className="text-2xl font-bold tracking-tight">Monopoly Cash Tracker</h1>
+            <h1 className="text-2xl font-bold tracking-tight">Monopoly Tracker</h1>
             {/* Add Player collapsed button */}
             <div className="relative">
               {!addOpen ? (
